@@ -1,0 +1,341 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+
+  <link rel="preload" href="fonts/MonumentExtended-Regular.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="preload" href="fonts/MonumentExtended-Ultrabold.woff2" as="font" type="font/woff2" crossorigin="">
+
+  <title>About Us - Monstercat</title>
+</head>
+<body class="text-white font-monument bg-[#120f11]">
+
+    <section class="bg-[url('https://cdx.monstercat.com/resized/8a169d846576fcdad7a0a6e04d371eb05b2a9397/600.webp')] h-[50vh] bg-cover bg-center blur-sm relative">
+        <video class="video-bg" autoplay muted loop>
+            <source src="https://cdn.monstercat.com/about/AboutMC-Banner.webm" type="video/webm">
+        </video>
+    </section>
+    
+    <section class="absolute top-0 right-0 left-0
+    bg-gradient-to-b from-[#00000096] to-[#120f11]  h-[51vh]">
+    </section>
+
+    <section class="content absolute top-0 left-0 right-0">
+
+        <!-- toggle menu -->
+        <div class="open h-[100vh] bg-[#120f11] menu-width close-menu fixed p-[2rem] z-50">
+            <div class="flex justify-between">
+                <img class="w-[70%]" src="https://cdn.monstercat.com/monstercat-logo-white.svg" alt="">
+                <a class="my-auto toggle-close cursor-pointer"><i class="fa-solid fa-xmark text-3xl"></i></a>
+            </div>
+
+            <div class="mt-[5rem]">
+                <nav>
+                    <ul>
+                        <li><a href="">MUSIC  <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a href="">ARTISTS  <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a href="">ABOUT  <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a href="">NEWS  <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a href="">EVENTS  <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a href="">PROGRAMMING  <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a href="">GOLD  <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a href="">PARTNERS  <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a href="">PRESS  <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a href="">PLAYER  <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a href="">SHOP  <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a href="">LOST CIVILIZATION  <i class="fa-solid fa-chevron-right"></i></a></li>            
+    
+                    </ul>
+                </nav>
+            </div>
+
+            
+            <div class="absolute bottom-10">
+                <div class="icons text-lg pb-5">
+                    <ul class="flex gap-5">
+                        <li><a href=""> <i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-tiktok"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-twitch"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-discord"></i></a></li>
+                        <li><a href=""> <i class="fa-solid fa-circle-play"></i></a></li>
+                    </ul>
+                </div>
+    
+                <a class="text-lg font-medium px-5 py-[.5rem] border-2 border-white hover:bg-white hover:text-black" href="">SIGN IN</a>
+                <a class="text-lg font-medium px-5 py-[.5rem] hover:bg-white hover:text-black" href=""> OR SIGN UP</a>
+            </div>
+
+        </div>
+
+        <!-- top header -->
+        <header class="header2 lg:hidden py-3 px-5 bg-[#120f114f] fixed w-[100%]">
+            <div class="flex justify-between align-middle ">
+                <a class="my-auto" href=""><img class="w-[50px] h-[50px] " src="./img/monstercat-logo.webp" alt=""></a>
+            
+                <div class="icons hidden sm:block my-auto">
+                    <ul class="flex">
+                        <li><a href=""> <i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-tiktok"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-twitch"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-discord"></i></a></li>
+                        <li><a href=""> <i class="fa-solid fa-circle-play"></i></a></li>
+                    </ul>
+                </div>
+
+                <a class="toggle-open1 my-auto"><i class="fa-solid fa-bars text-[1.5rem]"></i></a>
+            </div>
+
+        </header>
+
+            <!-- side header -->
+        <header class="header1 hidden lg:block fixed right-[3%] top-[5%]">
+            
+            <a href=""><img class="w-[50px] h-[50px] fixed z-[999] left-[3%] top-[3%]" src="./img/monstercat-logo.webp" alt=""></a>
+
+            <a class="toggle-open cursor-pointer"><i class="fa-solid fa-bars mb-[3rem] text-[1.5rem]"></i></a>
+            <div class="icons py-[1.5rem] xl:py-0">
+                <ul>
+                    <li><a href=""> <i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href=""> <i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href=""> <i class="fa-brands fa-tiktok"></i></a></li>
+                    <li><a href=""> <i class="fa-brands fa-twitch"></i></a></li>
+                    <li><a href=""> <i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href=""> <i class="fa-brands fa-discord"></i></a></li>
+                    <li><a href=""> <i class="fa-solid fa-circle-play"></i></a></li>
+                </ul>
+            </div>
+        </header>
+
+        <section class="banner pt-[5rem] pb-[1.5rem]">
+            <div class="wrapper">
+                <h1 class="text-gigantic leading-none py-[1rem]"><span>ABOUT</span> <br> MONSTERCAT</h1>     
+                <div class="pt-5 pb-24 lg:py-[5rem]">
+                    <a class="py-3 text-xs lg:text-base px-10 border-[1px] hover:bg-white hover:text-black" href=""><i class="fa-solid fa-play mr-3"></i>PLAY VIDEO</a>
+                </div>
+                <p class="font-montserrat italic pbody leading-loose text-[#d5d5d5] font-medium lg:w-[70%]">Monstercat is one of electronic music’s most influential independent record labels. Founded in Waterloo, Canada in 2011, Monstercat has since expanded its global footprint with offices in Vancouver, Los Angeles, and Singapore. Backed by passionate employees, driven artists, and the dedication of fans worldwide, Monstercat proves that independent labels have the ability to reshape and reimagine the music industry landscape.</p>
+            </div>
+        </section>
+
+        <section class="vision py-[2.5rem] lg:py-[6rem]">
+            <div class="wrapper text-center">
+                <h3 class="py-3 letter-space">OUR VISION</h3>
+                <p class="font-montserrat font-semibold italic text-lg lg:text-3xl lg:leading-[3rem] leading-loose xl:w-[70%] mx-auto">TO BUILD THE WORLD’S MOST INNOVATIVE MUSIC COMPANY, LEADING THE MOVEMENT TOWARDS ARTIST SUSTAINABILITY</p>
+            </div>
+        </section>
+
+        <section class="whatWeDo py-[2.5rem]">
+            <div class="wrapper">
+                <div class="md:grid md:grid-cols-2 md:gap-10 ">
+                    <div>
+                        <h3 class="letter-space py-[1rem] md:pt-0">WHAT WE DO</h3>
+                        <p class="font-montserrat italic pbody leading-loose text-[#d5d5d5]">Championing a cadre of world-renowned artists, Monstercat exceeds 200 million global audio streams monthly. With six releases a week across its Uncaged, Instinct, and Silk brands, Monstercat has topped radio and streaming charts worldwide, offering a diverse range of genres across bass, dance, pop, house, chill, and electronic.
+                        <br><br>
+                        In addition to its genre-diverse music offerings, Monstercat is known for its non-exclusive record deals which allow artists flexibility and creative freedom. To further its mission of artist sustainability, the label adheres to a 50⁄50 split model, ensuring artists royalty payments monthly so they can work towards making a living off their music and art.
+                        <br><br>
+                        Beyond recorded music, Monstercat channels the undeniable power of its brand into apparel, live events, gaming partnerships and sync deals. Spanning over 100 events across 16 countries, Monstercat has hosted stages and shows at notable international festivals including Tomorrowland, Amsterdam Dance Event, and Miami Music Week. The label also throws its own homegrown festival, Compound, which draws thousands of fans to Vancouver in celebration of community, music, art, and more</p>
+                    </div>
+                    
+                    <div class="pt-[1rem] md:pt-0 xl:my-auto">
+                        <p class="font-montserrat italic pbody leading-loose text-[#d5d5d5]">Monstercat’s live radio program ‘Call of the Wild’ boosts the signal even further, reaching millions of listeners weekly through its syndication partnerships across 30+ global networks, including SiriusXM and leading livestreaming platform Twitch. In 2021, the Monstercat Silk Showcase entered the fold, which features mixes from a rotating cast of artists across progressive & deep house, chillout, trance, and more. In 2020, Monstercat launched the original entertainment series, mctv, which serves as a global discovery hub for fans and a performance opportunity for artists on Monstercat’s leading Twitch channel.
+                        <br><br>
+                        Within the work of sync and partnerships, Monstercat has redefined music licensing for content creators and major brands. Undertaking co-branded soundtracks, in-game activations, and collaborations with game publishers and titles including Epic/Psyonix (Fortnite, Rocket League), Roblox, Hi-Rez Studios (SMITE), Amanotes, and Beat Games (Beat Saber), Monstercat offers curated solutions that continue to excite and fuel the gaming community. Additionally, Monstercat supports content creators with its music licensing program, Monstercat Gold, which allows creators to choose from thousands of songs in the label’s ever-growing library, for claim-free use in livestream and video content.</p></div>
+    
+                    <img class="pt-[2rem] md:pt-0" src="https://storage.googleapis.com/monstercat/about/about-us-img-2.webp" alt="">
+                    
+                    <div class="xl:my-auto py-[2.5rem] md:py-0">
+                        <h3 class="letter-space py-[1rem] md:pt-0">HOW IT BEGAN</h3>
+                        <p class="font-montserrat italic pbody leading-loose text-[#d5d5d5]">In 2011, co-founders Mike Darlington and Ari Paunonen met at the University of Waterloo, connecting over their shared love of music and entrepreneurial spirit. Noticing the steady rise of video platforms like YouTube, as well as the booming electronic music scene at the time, Mike and Ari set out to launch a boundary-pushing digital record label that would deliver high-quality, accessible electronic music. With community at the core, they built a tight-knit family of passionate artists, global music fans, avid gamers, and content creators, that came to be known as Monstercat.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="companyValues py-[2.5rem] text-center">
+            <div class="wrapper">
+                <h3 class="letter-space pt-[1rem]">COMPANY VALUES</h3>
+
+                <div class="sm:grid sm:grid-cols-2 sm:gap-10
+                lg:grid lg:grid-cols-4">
+                    <div class="py-[1.5rem]">
+                        <h4 class="letter-space-4">COMMUNITY</h4>
+                        <p class="font-montserrat italic pbody leading-loose text-[#d5d5d5]">Community is at the heart of everything we do, nurtured by an inclusive culture of collaboration, diversity, positivity, and inspiring music.</p>
+                    </div>
+                    <div class="py-[1.5rem]">
+                        <h4 class="letter-space-4">CURIOSITY</h4>
+                        <p class="font-montserrat italic pbody leading-loose text-[#d5d5d5]">In order to grow we always ask questions, remain open to fresh perspectives, and challenge ourselves to think differently.</p>
+                    </div>
+                    <div class="py-[1.5rem]">
+                        <h4 class="letter-space-4">INTEGRITY</h4>
+                        <p class="font-montserrat italic pbody leading-loose text-[#d5d5d5]">We hold ourselves accountable and follow through on our word, with honest and respectful communication.</p>
+                    </div>
+                    <div class="py-[1.5rem]">
+                        <h4 class="letter-space-4">TENACITY</h4>
+                        <p class="font-montserrat italic pbody leading-loose text-[#d5d5d5]">We don't fear failure. Anything is possible; if we can conceive it, we can achieve it.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slider py-[2.5rem]">
+            <div class="about_slider" style="left: 50px;">
+                <div class="slider_item" href="">
+                    <img class="h-[50%] lg:h-[90vh] w-[100%] ml-[3rem]" src="https://cdn.monstercat.com/about/compound-shot-4.webp" alt="About Monstercat 1">
+                </div>
+                <div class="slider_item" href="">
+                    <img class="h-[50%] lg:h-[90vh] w-[100%]" src="https://cdn.monstercat.com/about/london-shot.webp" alt="About Monstercat 2">
+                </div>
+                <div class="slider_item" href="">
+                    <img class="h-[50%] lg:h-[90vh] w-[100%]" src="https://cdn.monstercat.com/about/monstercat-wall.webp" alt="About Monstercat 3">
+                </div>
+                <div class="slider_item" href="">
+                    <img class="h-[50%] lg:h-[90vh] w-[100%]" src="https://cdn.monstercat.com/about/compound-shot.webp" alt="About Monstercat 4">
+                </div>
+                <div class="slider_item" href="">
+                    <img class="h-[50%] lg:h-[90vh] w-[100%]" src="https://cdn.monstercat.com/about/crowd-shot.webp" alt="About Monstercat 5">
+                </div>
+            </div>
+        </section>
+
+        <section class="partners py-[2.5rem] text-center lg:w-[50%] mx-auto">
+            <div class="wrapper">
+                <img class="w-[50%] mx-auto" src="https://cdn.monstercat.com/about/CreativeBC_Logo_2022_CreativeBC_LogoWhiteC_BC.png" alt="">
+                <p class="font-montserrat py-[2rem] italic">Supported by Creative BC and the Province of British Columbia</p>
+                <img src="https://cdn.monstercat.com/about/FactorLogo.webp" alt="">
+            </div>
+        </section>
+
+        <section class="beforeFooter py-[2.5rem] hidden 2xl:block">
+            <div class="wrapper">
+                <div class="grid grid-cols-5 text-center">
+                    <a class="bg-[url('https://cdn.monstercat.com/about/bg-link-about.webp')] bg-cover bg-center" href=""><span>ABOUT</span></a>
+                    <a class="bg-[url('https://cdn.monstercat.com/about/bg-link-careers.webp')] bg-cover bg-center" href=""><span>ETHICS</span></a>
+                    <a class="bg-[url('https://cdn.monstercat.com/about/bg-link-diversity.webp')] bg-cover bg-center" href=""><span>DIVERSITY</span></a>
+                    <a class="bg-[url('https://cdn.monstercat.com/about/bg-link-environment.webp')] bg-cover bg-center" href=""><span>ENVIRONMENTAL</span></a>
+                    <a class="bg-[url('https://cdn.monstercat.com/about/bg-link-contact.webp')] bg-cover bg-center" href=""><span>CONTACT</span></a>
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="footer pt-[3rem]">
+            <div class="wrapper">
+                <div class="md:flex md:justify-between border-y-2 xl:border-t-0 border-white py-[3rem]">
+                    <div>
+                        <a href="" class="quickLinks">ABOUT MONSTERCAT</a>
+                        <a href="" class="quickLinks">CONTACT US</a>
+                        <a href="" class="quickLinks">CAREERS</a>
+                        <a href="" class="quickLinks">NEWS</a>
+                        <a href="" class="quickLinks">PRESS</a>
+                    </div>
+    
+                    <div>
+                        <a href="" class="quickLinks">TERMS OF SERVICE</a>
+                        <a href="" class="quickLinks">PRIVACY POLICY</a>
+                    </div>
+    
+                    <div class="mt-10 md:mt-0 md:w-[30%]">
+                        <p class="text-[1rem] lg:text-[1.2rem] letter-space text-[#898888]">MONSTERCAT NEWS</p>
+                        <p class="italic letter-space py-5 text-sm font-montserrat">Don't miss a thing, stay up to date with the latest news from us.</p>
+                        <form class="relative" action="">
+                            <input class="bg-transparent border-b-2 border-[#ffffff57] w-[100%] text-md py-3 px-2 focus:outline-none font-montserrat" type="email" placeholder="Enter email">
+                            <button class="absolute right-0"><i class="fa-solid fa-arrow-right text-[1.2rem] hover:text-black text-white py-3 px-5 hover:bg-white "></i></button>
+                        </form>
+                    </div>
+                </div>
+    
+                <div class="py-[2rem] xl:flex xl:justify-between">
+                    <div>
+                        <p class="font-montserrat italic letter-space text-sm lg:text-base">2011 - 2023 © Monstercat, All Rights Reserved</p>
+                    </div>
+    
+                    <div class="icons py-[1.5rem] xl:py-0">
+                        <ul class="flex gap-5">
+                            <li><a href=""><i class="fa-brands fa-youtube"></i> </a></li>
+                            <li><a href=""> <i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href=""> <i class="fa-brands fa-tiktok"></i></a></li>
+                            <li><a href=""> <i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href=""> <i class="fa-brands fa-spotify"></i></a></li>
+                            <li><a href=""> <i class="fa-brands fa-apple"></i></a></li>
+                            <li><a href=""> <i class="fa-brands fa-twitch"></i></a></li>
+                            <li><a href=""> <i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href=""> <i class="fa-brands fa-discord"></i></a></li>
+                            <li><a href=""> <i class="fa-solid fa-bowling-ball"></i></a></li>
+                            <li><a href=""> <i class="fa-solid fa-circle-play"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+    
+                <div class="py-16 text-center text-xs italic 2xl:px-[15rem] font-montserrat">
+                    <p>We acknowledge with gratitude the traditional, ancestral and unceded land of the Coast Salish peoples, including the territories of the Sḵwx̱wú7mesh (Squamish), Stó:lō and Səl̓ílwətaʔ/Selilwitulh (Tsleil-Waututh) and xʷməθkʷəy̓əm (Musqueam) Nations, on which Monstercat's Vancouver HQ stands.
+                        <br> <br>
+                        We acknowledge the unceded and ancestral territories of the Gabrielino/Tongva peoples on which our LA team live and work.</p>
+                </div>
+            </div>
+        </footer>
+            
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+    <script>
+        const toggle_open = document.querySelector(".toggle-open");
+        const toggle_open1 = document.querySelector(".toggle-open1");
+        const toggle_close = document.querySelector(".toggle-close");
+        const menu = document.querySelector(".open");
+    
+        toggle_open.addEventListener('click', ()=>{
+        menu.classList.replace("close-menu","open-menu");
+        })
+
+        toggle_close.addEventListener('click', ()=>{
+        menu.classList.replace("open-menu","close-menu");
+        })
+
+        toggle_open1.addEventListener('click', ()=>{
+        menu.classList.replace("close-menu","open-menu");
+        })
+
+    </script>
+
+
+<!-- TINY SLIDER -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+    
+    <script type="module">
+        var slider = tns({
+        container: '.about_slider',
+        items: 1.5,
+        slideBy: 'page',
+        autoplay: true,
+        controls: false,
+        autoWidth: true,
+        navPosition: 'bottom',
+        });
+    </script>
+
+</body>
+</html>

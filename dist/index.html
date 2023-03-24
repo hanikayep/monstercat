@@ -1,0 +1,438 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+  <link rel="preload" href="">
+
+  <link rel="preload" href="fonts/MonumentExtended-Regular.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="preload" href="fonts/MonumentExtended-Ultrabold.woff2" as="font" type="font/woff2" crossorigin="">
+
+  <title>Monstercat</title>
+</head>
+<body class="text-white font-monument bg-[#120f11]">
+
+    <section class="bg-[url('https://cdx.monstercat.com/resized/8a169d846576fcdad7a0a6e04d371eb05b2a9397/600.webp')] h-[100vh] bg-cover bg-center blur-sm relative">
+    </section>
+    
+    <section class="absolute top-0 right-0 left-0
+    bg-gradient-to-b from-[#00000096] to-[#120f11]  h-[101vh]">
+    </section>
+
+    <section class="content absolute top-0 left-0 right-0">
+
+        <!-- toggle menu -->
+        <div class="open h-[100vh] bg-[#120f11] menu-width close-menu fixed p-[2rem] z-50">
+            <div class="flex justify-between">
+                <img class="w-[70%]" src="https://cdn.monstercat.com/monstercat-logo-white.svg" alt="">
+                <a class="my-auto toggle-close cursor-pointer"><i class="fa-solid fa-xmark text-3xl"></i></a>
+            </div>
+
+            <div class="mt-[5rem]">
+                <nav>
+                    <ul>
+                        <li><a href="">MUSIC  <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a href="">ARTISTS  <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a href="">ABOUT  <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a href="">NEWS  <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a href="">EVENTS  <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a href="">PROGRAMMING  <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a href="">GOLD  <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a href="">PARTNERS  <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a href="">PRESS  <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a href="">PLAYER  <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a href="">SHOP  <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a href="">LOST CIVILIZATION  <i class="fa-solid fa-chevron-right"></i></a></li>            
+    
+                    </ul>
+                </nav>
+            </div>
+
+            
+            <div class="absolute bottom-10">
+                <div class="icons text-lg pb-5">
+                    <ul class="flex gap-5">
+                        <li><a href=""> <i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-tiktok"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-twitch"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-discord"></i></a></li>
+                        <li><a href=""> <i class="fa-solid fa-circle-play"></i></a></li>
+                    </ul>
+                </div>
+    
+                <a class="text-lg font-medium px-5 py-[.5rem] border-2 border-white hover:bg-white hover:text-black" href="">SIGN IN</a>
+                <a class="text-lg font-medium px-5 py-[.5rem] hover:bg-white hover:text-black" href=""> OR SIGN UP</a>
+            </div>
+
+        </div>
+
+        <!-- top header -->
+        <section class="header2 lg:hidden py-3 px-5 bg-[#120f114f] fixed w-[100%]">
+            <div class="flex justify-between align-middle ">
+                <a class="my-auto" href=""><img class="w-[50px] h-[50px] " src="./img/monstercat-logo.webp" alt=""></a>
+            
+                <div class="icons hidden sm:block my-auto">
+                    <ul class="flex">
+                        <li><a href=""> <i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-tiktok"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-twitch"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-discord"></i></a></li>
+                        <li><a href=""> <i class="fa-solid fa-circle-play"></i></a></li>
+                    </ul>
+                </div>
+
+                <a class="toggle-open1 my-auto"><i class="fa-solid fa-bars text-[1.5rem]"></i></a>
+            </div>
+
+        </section>
+
+
+
+        <div class="wrapper">
+            
+            <section class="header1 hidden lg:block fixed right-[3%] top-[5%]">
+                
+                <a href=""><img class="w-[50px] h-[50px] fixed z-[999] left-[3%] top-[3%]" src="./img/monstercat-logo.webp" alt=""></a>
+
+                <a class="toggle-open cursor-pointer"><i class="fa-solid fa-bars mb-[3rem] text-[1.5rem]"></i></a>
+                <div class="icons py-[1.5rem] xl:py-0">
+                    <ul>
+                        <li><a href=""> <i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-tiktok"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-twitch"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-discord"></i></a></li>
+                        <li><a href=""> <i class="fa-solid fa-circle-play"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="banner">
+                <div class="pt-[8rem] lg:pt-[13rem] lg:grid lg:grid-cols-9 ">
+
+                    <div class="col-span-4 sm:relative">
+                        <img class="w-[100%] md:pl-[2.5rem]" src="https://cdx.monstercat.com/resized/8a169d846576fcdad7a0a6e04d371eb05b2a9397/600.webp" alt="">
+    
+                        <p class="md:-rotate-90 md:absolute md:left-[-9.5rem] md:bottom-[8.5rem] text-[1.2rem] pt-5 pb-2 italic font-medium font-montserrat"> <span class="text-primary">Instinct</span> — Released May 22, 2020</p>
+                    </div>
+    
+                    <div class="col-span-5 lg:pl-[5rem] my-auto">
+                        <h1 class="letter-space-4 text-stroke lg:h-[4.5rem]">LEVEL DAYS</h1>
+                        <h2 class="">CONRO</h2>
+                        <div class="banner__buttons lg:pt-16 py-10">
+                            <a class="bg-primary mr-3" href=""><i class="fa-solid fa-play mr-3"></i>LISTEN NOW</a>
+                            <a class="border-white border-[1px]" href=""><i class="fa-solid fa-share-nodes mr-3"></i>SHARE</a>
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="mt-[5rem] lg:mt-[8rem] lg:mb-[5rem]">
+                    <h1 class="letter-space-4 ">STREAM IT YOUR WAY</h1>
+                    <ul class="flex py-10">
+                        <li><a href=""><i class="fa-solid fa-circle-play"></i> <span class="text-sm font-bold align-middle font-montserrat">PLAYER</span></a></li>
+                        <li><a href=""><i class="fa-brands fa-bandcamp"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-soundcloud"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-apple"></i> </a></li>
+                        <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-spotify"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="tracklist py-[2rem]">
+                <h1 class="letter-space-4">TRACK LIST</h1>
+                
+                
+                <div class="font-montserrat">
+                    <div class="flex justify-between py-[2rem] lg:pr-[5rem]">
+                        <div class="left flex gap-10 align-middle">
+                            <p class="number">1</p>
+                            <a class="cursor-pointer"><i class="fa-solid fa-play"></i></a>
+                            <div>
+                                <p class="title">The Small Things</p>
+                                <p class="artist">Conro</p>
+                            </div>
+                        </div>
+                        <div class="right flex gap-5 md:gap-10 lg:gap-20">
+                            <p class="length">3:55</p>
+                            <p class="share cursor-pointer"><i class="fa-solid fa-share-nodes"></i></p>
+                        </div>
+                    </div>
+    
+                    <div class="flex justify-between py-[2rem] lg:pr-[5rem]">
+                        <div class="left flex gap-10 align-middle">
+                            <p class="number">2</p>
+                            <a class="cursor-pointer"><i class="fa-solid fa-play"></i></a>
+                            <div>
+                                <p class="title">Without Your Love</p>
+                                <p class="artist">Conro</p>
+                            </div>
+                        </div>
+                        <div class="right flex gap-5 md:gap-10 lg:gap-20">
+                            <p class="length">3:55</p>
+                            <p class="share cursor-pointer"><i class="fa-solid fa-share-nodes"></i></p>
+                        </div>
+                    </div>
+    
+                    <div class="flex justify-between py-[2rem] lg:pr-[5rem]">
+                        <div class="left flex gap-10 align-middle">
+                            <p class="number">3</p>
+                            <a class="cursor-pointer"><i class="fa-solid fa-play"></i></a>
+                            <div>
+                                <p class="title">Therapy</p>
+                                <p class="artist">Conro</p>
+                            </div>
+                        </div>
+                        <div class="right flex gap-5 md:gap-10 lg:gap-20">
+                            <p class="length">3:55</p>
+                            <p class="share cursor-pointer"><i class="fa-solid fa-share-nodes"></i></p>
+                        </div>
+                    </div>
+    
+                    <div class="flex justify-between py-[2rem] lg:pr-[5rem]">
+                        <div class="left flex gap-10 align-middle">
+                            <p class="number">4</p>
+                            <a class="cursor-pointer"><i class="fa-solid fa-play"></i></a>
+                            <div>
+                                <p class="title">Fighters</p>
+                                <p class="artist">Conro</p>
+                            </div>
+                        </div>
+                        <div class="right flex gap-5 md:gap-10 lg:gap-20">
+                            <p class="length">3:55</p>
+                            <p class="share cursor-pointer"><i class="fa-solid fa-share-nodes"></i></p>
+                        </div>
+                    </div>
+    
+                    <div class="flex justify-between py-[2rem] lg:pr-[5rem]">
+                        <div class="left flex gap-10 align-middle">
+                            <p class="number">5</p>
+                            <a class="cursor-pointer"><i class="fa-solid fa-play"></i></a>
+                            <div>
+                                <p class="title">Way Up</p>
+                                <p class="artist">Conro</p>
+                            </div>
+                        </div>
+                        <div class="right flex gap-5 md:gap-10 lg:gap-20">
+                            <p class="length">3:55</p>
+                            <p class="share cursor-pointer"><i class="fa-solid fa-share-nodes"></i></p>
+                        </div>
+                    </div>
+    
+                    <div class="flex justify-between py-[2rem] lg:pr-[5rem]">
+                        <div class="left flex gap-10 align-middle">
+                            <p class="number">6</p>
+                            <a class="cursor-pointer"><i class="fa-solid fa-play"></i></a>
+                            <div>
+                                <p class="title">Waiting</p>
+                                <p class="artist">Conro</p>
+                            </div>
+                        </div>
+                        <div class="right flex gap-5 md:gap-10 lg:gap-20">
+                            <p class="length">3:55</p>
+                            <p class="share cursor-pointer"><i class="fa-solid fa-share-nodes"></i></p>
+                        </div>
+                    </div>
+    
+                    <div class="flex justify-between py-[2rem] lg:pr-[5rem]">
+                        <div class="left flex gap-10 align-middle">
+                            <p class="number">7</p>
+                            <a class="cursor-pointer"><i class="fa-solid fa-play"></i></a>
+                            <div>
+                                <p class="title">Dreaming</p>
+                                <p class="artist">Conro</p>
+                            </div>
+                        </div>
+                        <div class="right flex gap-5 md:gap-10 lg:gap-20">
+                            <p class="length">3:55</p>
+                            <p class="share cursor-pointer"><i class="fa-solid fa-share-nodes"></i></p>
+                        </div>
+                    </div>
+    
+                    <div class="flex justify-between py-[2rem] lg:pr-[5rem]">
+                        <div class="left flex gap-10 align-middle">
+                            <p class="number">8</p>
+                            <a class="cursor-pointer"><i class="fa-solid fa-play"></i></a>
+                            <div>
+                                <p class="title">Tattoo</p>
+                                <p class="artist">Conro</p>
+                            </div>
+                        </div>
+                        <div class="right flex gap-5 md:gap-10 lg:gap-20">
+                            <p class="length">3:55</p>
+                            <p class="share cursor-pointer"><i class="fa-solid fa-share-nodes"></i></p>
+                        </div>
+                    </div>
+    
+                    <div class="flex justify-between py-[2rem] lg:pr-[5rem]">
+                        <div class="left flex gap-10 align-middle">
+                            <p class="number">9</p>
+                            <a class="cursor-pointer"><i class="fa-solid fa-play"></i></a>
+                            <div>
+                                <p class="title">Out for the Night</p>
+                                <p class="artist">Conro</p>
+                            </div>
+                        </div>
+                        <div class="right flex gap-5 md:gap-10 lg:gap-20">
+                            <p class="length">3:55</p>
+                            <p class="share cursor-pointer"><i class="fa-solid fa-share-nodes"></i></p>
+                        </div>
+                    </div>
+    
+                    <div class="flex justify-between py-[2rem] lg:pr-[5rem]">
+                        <div class="left flex gap-10 align-middle">
+                            <p class="number">10</p>
+                            <a class="cursor-pointer"><i class="fa-solid fa-play"></i></a>
+                            <div>
+                                <p class="title">Overdue</p>
+                                <p class="artist">Conro</p>
+                            </div>
+                        </div>
+                        <div class="right flex gap-5 md:gap-10 lg:gap-20">
+                            <p class="length">3:55</p>
+                            <p class="share cursor-pointer"><i class="fa-solid fa-share-nodes"></i></p>
+                        </div>
+                    </div>
+    
+                    <div class="flex justify-between py-[2rem] lg:pr-[5rem]">
+                        <div class="left flex gap-10 align-middle">
+                            <p class="number">11</p>
+                            <a class="cursor-pointer"><i class="fa-solid fa-play"></i></a>
+                            <div>
+                                <p class="title">Say It</p>
+                                <p class="artist">Conro</p>
+                            </div>
+                        </div>
+                        <div class="right flex gap-5 md:gap-10 lg:gap-20">
+                            <p class="length">3:55</p>
+                            <p class="share cursor-pointer"><i class="fa-solid fa-share-nodes"></i></p>
+                        </div>
+                    </div>
+    
+                    <div class="flex justify-between py-[2rem] lg:pr-[5rem]">
+                        <div class="left flex gap-10 align-middle">
+                            <p class="number">12</p>
+                            <a class="cursor-pointer"><i class="fa-solid fa-play"></i></a>
+                            <div>
+                                <p class="title">Here to Stay</p>
+                                <p class="artist">Conro</p>
+                            </div>
+                        </div>
+                        <div class="right flex gap-5 md:gap-10 lg:gap-20">
+                            <p class="length">3:55</p>
+                            <p class="share cursor-pointer"><i class="fa-solid fa-share-nodes"></i></p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="mv">
+                <h1 class="py-[1.5rem] letter-space-4">MUSIC VIDEO</h1>
+                <iframe class="w-[100%] h-[300px] lg:h-[500px] xl:h-[882px]" src="https://www.youtube.com/embed/7nObtWENgxA" title="Conro - Therapy [Monstercat Lyric Video]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </section>
+
+            <footer class="footer pt-[3rem]">
+                <div class="md:flex md:justify-between border-y-2 border-white py-[3rem]">
+                    <div>
+                        <a href="" class="quickLinks">ABOUT MONSTERCAT</a>
+                        <a href="" class="quickLinks">CONTACT US</a>
+                        <a href="" class="quickLinks">CAREERS</a>
+                        <a href="" class="quickLinks">NEWS</a>
+                        <a href="" class="quickLinks">PRESS</a>
+                    </div>
+
+                    <div>
+                        <a href="" class="quickLinks">TERMS OF SERVICE</a>
+                        <a href="" class="quickLinks">PRIVACY POLICY</a>
+                    </div>
+
+                    <div class="mt-10 md:mt-0 md:w-[30%]">
+                        <p class="text-[1rem] lg:text-[1.2rem] letter-space text-[#898888]">MONSTERCAT NEWS</p>
+                        <p class="italic letter-space py-5 text-sm font-montserrat">Don't miss a thing, stay up to date with the latest news from us.</p>
+                        <form class="relative" action="">
+                            <input class="bg-transparent border-b-2 border-[#ffffff57] w-[100%] text-md py-3 px-2 focus:outline-none font-montserrat" type="email" placeholder="Enter email">
+                            <button class="absolute right-0"><i class="fa-solid fa-arrow-right text-[1.2rem] hover:text-black text-white py-3 px-5 hover:bg-white "></i></button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="py-[2rem] xl:flex xl:justify-between">
+                    <div>
+                        <p class="font-montserrat italic letter-space text-sm lg:text-base">2011 - 2023 © Monstercat, All Rights Reserved</p>
+                    </div>
+
+                    <div class="icons py-[1.5rem] xl:py-0">
+                        <ul class="flex gap-5">
+                            <li><a href=""><i class="fa-brands fa-youtube"></i> </a></li>
+                            <li><a href=""> <i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href=""> <i class="fa-brands fa-tiktok"></i></a></li>
+                            <li><a href=""> <i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href=""> <i class="fa-brands fa-spotify"></i></a></li>
+                            <li><a href=""> <i class="fa-brands fa-apple"></i></a></li>
+                            <li><a href=""> <i class="fa-brands fa-twitch"></i></a></li>
+                            <li><a href=""> <i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href=""> <i class="fa-brands fa-discord"></i></a></li>
+                            <li><a href=""> <i class="fa-solid fa-bowling-ball"></i></a></li>
+                            <li><a href=""> <i class="fa-solid fa-circle-play"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="py-16 text-center text-xs italic 2xl:px-[15rem] font-montserrat">
+                    <p>We acknowledge with gratitude the traditional, ancestral and unceded land of the Coast Salish peoples, including the territories of the Sḵwx̱wú7mesh (Squamish), Stó:lō and Səl̓ílwətaʔ/Selilwitulh (Tsleil-Waututh) and xʷməθkʷəy̓əm (Musqueam) Nations, on which Monstercat's Vancouver HQ stands.
+                        <br> <br>
+                        We acknowledge the unceded and ancestral territories of the Gabrielino/Tongva peoples on which our LA team live and work.</p>
+                </div>
+            </footer>
+            
+
+
+
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+    <script>
+        const toggle_open = document.querySelector(".toggle-open");
+        const toggle_open1 = document.querySelector(".toggle-open1");
+        const toggle_close = document.querySelector(".toggle-close");
+        const menu = document.querySelector(".open");
+    
+        toggle_open.addEventListener('click', ()=>{
+        menu.classList.replace("close-menu","open-menu");
+        })
+
+        toggle_close.addEventListener('click', ()=>{
+        menu.classList.replace("open-menu","close-menu");
+        })
+
+        toggle_open1.addEventListener('click', ()=>{
+        menu.classList.replace("close-menu","open-menu");
+        })
+
+    </script>
+
+</body>
+</html>
