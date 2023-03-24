@@ -669,6 +669,11 @@ video {
   margin-bottom: auto;
 }
 
+.my-\[2rem\] {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -959,6 +964,10 @@ video {
 
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\'https\:\/\/cdx\.monstercat\.com\?encoding\=webp\&url\=https\%3A\%2F\%2Fcdn\.monstercat\.com\%2Fpartnerships-sync\%2Fsync-partnerships-bg\.webp\&width\=1920\'\)\] {
+  background-image: url('https://cdx.monstercat.com?encoding=webp&url=https%3A%2F%2Fcdn.monstercat.com%2Fpartnerships-sync%2Fsync-partnerships-bg.webp&width=1920');
 }
 
 .from-\[\#00000096\] {
@@ -1971,6 +1980,11 @@ body::after {
     grid-column: span 3 / span 3;
   }
 
+  .lg\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .lg\:my-0 {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -2041,6 +2055,10 @@ body::after {
     width: 70%;
   }
 
+  .lg\:w-\[60\%\] {
+    width: 60%;
+  }
+
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2051,6 +2069,10 @@ body::after {
 
   .lg\:grid-cols-9 {
     grid-template-columns: repeat(9, minmax(0, 1fr));
+  }
+
+  .lg\:justify-center {
+    justify-content: center;
   }
 
   .lg\:justify-between {
@@ -2085,6 +2107,10 @@ body::after {
 
   .lg\:pt-\[13rem\] {
     padding-top: 13rem;
+  }
+
+  .lg\:text-center {
+    text-align: center;
   }
 
   .lg\:text-right {
